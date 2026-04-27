@@ -336,3 +336,8 @@ def initialize_recommendation_engine(data_manager):
 def get_recommendation_engine():
     """Get the recommendation engine instance"""
     return recommendation_engine
+
+
+if __name__ == "__main__":
+    print("🚀 Recommendation Engine Loaded Successfully")
+    print("📦 Module is ready for backend/API use")
